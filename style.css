@@ -1,1 +1,19 @@
 /* this is a css comment */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.navbar {
+	background-color: #1F2937;
+	font-family: Roboto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-list {
+	list-style: none;
+	display: flex;
+}
